@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\UniversityAPIBackend",
+    "\\UniversityAPIBackend\\Controllers",
+    "\\UniversityAPIBackend\\DataAccess",
+    "\\UniversityAPIBackend\\Models",
+    "\\UniversityAPIBackend\\Models\\DataModels",
+    "\\UniversityAPIBackend\\Services"
+  ],
+  "SelectedNode": "\\University.sln",
+  "PreviewInSolutionExplorer": false
+}
