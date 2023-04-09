@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using UniversityAPIBackend.DataAccess;
+using UniversityAPIBackend.Interface;
 using UniversityAPIBackend.Services;
 
 namespace UniversityAPIBackend
@@ -22,6 +23,7 @@ namespace UniversityAPIBackend
 
             //4- Add Custom Services (folder Services)
             builder.Services.AddScoped<IStudentService,StudentService>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
             //TODO : Add the rest of services
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

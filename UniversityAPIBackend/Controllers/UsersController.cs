@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UniversityAPIBackend.DataAccess;
+using UniversityAPIBackend.Interface;
 using UniversityAPIBackend.Models.DataModels;
 
 namespace UniversityAPIBackend.Controllers
@@ -15,24 +11,28 @@ namespace UniversityAPIBackend.Controllers
     public class UsersController : ControllerBase
     {
         private readonly UniversityDBContext _context;
+        private readonly IUserService _userService;
 
-        public UsersController(UniversityDBContext context)
+        public UsersController(UniversityDBContext context,IUserService userService)
         {
             _context = context;
+            _userService = userService;
         }
 
         // GET: https://localhost:7147/api/users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+            var users = await _userService.GetAllUsers();
+            return users.ToList();
         }
+        
 
         // GET: api/Users/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
-            var user = await _context.Users.FindAsync(id);
+            var user = await _userService.GetOneUser(id);
 
             if (user == null)
             {
@@ -40,6 +40,26 @@ namespace UniversityAPIBackend.Controllers
             }
 
             return user;
+        }
+        [HttpGet("GetUserByEmail")]
+        public async Task<ActionResult<User>> GetUserByEmail(string email)
+        {
+            try
+            {
+            var user = await _userService.FindUserByEmail(email);
+
+            if (user == null)
+            {
+            }
+            return Ok(user);
+
+            }
+            catch (ArgumentNullException)
+            {
+                return NotFound();
+            }
+
+
         }
 
         // PUT: https://localhost:7147/api/user/1

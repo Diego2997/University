@@ -10825,19 +10825,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {}
+    "C:\\Users\\Diego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OB\\University\\UniversityAPIBackend\\UniversityAPIBackend.csproj",
+      "projectUniqueName": "D:\\Proyectos\\University\\UniversityAPIBackend\\UniversityAPIBackend.csproj",
       "projectName": "UniversityAPIBackend",
-      "projectPath": "D:\\OB\\University\\UniversityAPIBackend\\UniversityAPIBackend.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\OB\\University\\UniversityAPIBackend\\obj\\",
+      "projectPath": "D:\\Proyectos\\University\\UniversityAPIBackend\\UniversityAPIBackend.csproj",
+      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\University\\UniversityAPIBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

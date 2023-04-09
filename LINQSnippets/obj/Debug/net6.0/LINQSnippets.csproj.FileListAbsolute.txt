@@ -1,0 +1,12 @@
+D:\Proyectos\University\LINQSnippets\bin\Debug\net6.0\LINQSnippets.deps.json
+D:\Proyectos\University\LINQSnippets\bin\Debug\net6.0\LINQSnippets.dll
+D:\Proyectos\University\LINQSnippets\bin\Debug\net6.0\LINQSnippets.pdb
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\LINQSnippets.csproj.AssemblyReference.cache
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\LINQSnippets.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\LINQSnippets.AssemblyInfoInputs.cache
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\LINQSnippets.AssemblyInfo.cs
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\LINQSnippets.csproj.CoreCompileInputs.cache
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\LINQSnippets.dll
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\refint\LINQSnippets.dll
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\LINQSnippets.pdb
+D:\Proyectos\University\LINQSnippets\obj\Debug\net6.0\ref\LINQSnippets.dll

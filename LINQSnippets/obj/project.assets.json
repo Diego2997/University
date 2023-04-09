@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {}
+    "C:\\Users\\Diego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OB\\University\\LINQSnippets\\LINQSnippets.csproj",
+      "projectUniqueName": "D:\\Proyectos\\University\\LINQSnippets\\LINQSnippets.csproj",
       "projectName": "LINQSnippets",
-      "projectPath": "D:\\OB\\University\\LINQSnippets\\LINQSnippets.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\OB\\University\\LINQSnippets\\obj\\",
+      "projectPath": "D:\\Proyectos\\University\\LINQSnippets\\LINQSnippets.csproj",
+      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\University\\LINQSnippets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

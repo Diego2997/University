@@ -8,6 +8,6 @@
     "\\UniversityAPIBackend\\Models\\DataModels",
     "\\UniversityAPIBackend\\Services"
   ],
-  "SelectedNode": "\\University.sln",
+  "SelectedNode": "\\UniversityAPIBackend\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

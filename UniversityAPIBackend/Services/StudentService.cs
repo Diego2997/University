@@ -1,4 +1,5 @@
 ﻿using UniversityAPIBackend.DataAccess;
+using UniversityAPIBackend.Interface;
 using UniversityAPIBackend.Models.DataModels;
 
 namespace UniversityAPIBackend.Services
@@ -10,18 +11,16 @@ namespace UniversityAPIBackend.Services
         {
             _context = context;
         }
-        public IEnumerable<Student> GetStudentWithCourses()
+
+        public async Task<IEnumerable<Student>> FindOlderStudents()
         {
-            throw new NotImplementedException();
-        }
-        public  IEnumerable<Student> GetAll()
-        {
-            return _context.Students.ToList();
+            var result = _context.Students.Where(s => (DateTime.Today.Year - s.Dob.Year) >= 18);
+            return result;
         }
 
-        public IEnumerable<Student> GetStudentWithNoCourses()
+        public async Task<IEnumerable<Student>> GetStudentsWithOneCourse()
         {
-            throw new NotImplementedException();
+            return _context.Students.Where(s => s.Courses.Count >= 1);
         }
     }
 }

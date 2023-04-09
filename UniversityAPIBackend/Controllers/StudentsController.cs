@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UniversityAPIBackend.DataAccess;
+using UniversityAPIBackend.Interface;
 using UniversityAPIBackend.Models.DataModels;
 using UniversityAPIBackend.Services;
 
